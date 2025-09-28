@@ -1,11 +1,8 @@
-package class_questions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
 
-public class Solution {
+import java.util.*;
+
+    public class grpanagram{
     public List<List<String>> groupAnagrams(String[] strs) {
      
         HashMap<String, List<String>> map = new HashMap<>();
