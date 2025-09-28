@@ -1,24 +1,25 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class range_additions{
 
 public static void main(String[] args) {
 
-int [][] updaets = [[1,3,2],[2,4,3],[0,2,-2]];
+int [][] updaets = {{1,3,2},{2,4,3},{0,2,-2}};
 int l =5;
 
-System.out.println(getModifiedArray(l , updaets));
-
+        int[] result = getModifiedArray(l,updaets );
+        System.out.println(Arrays.toString(result));
 }
-
     public static  int[] getModifiedArray(int length, int[][] updates) {
         int[] arr = new int[length];
 
- 
         for (int[] upd : updates) {
+
             int i = upd[0];
-             j = upd[1];
-              val = upd[2];
+            int j = upd[1];
+            int   val = upd[2];
+
+            
 
             arr[i] += val;
 
