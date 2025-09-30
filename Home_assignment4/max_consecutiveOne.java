@@ -1,3 +1,14 @@
+// ⏱ Time Complexity: O(n)
+// - r and l both traverse the array once.
+// - Each element is processed at most twice (once by r, once by l).
+// - So overall, linear time: O(n) where n = nums.length.
+
+//  Space Complexity: O(1)
+// - Only a few integer variables (maxlen, l, r, zeros) are used.
+// - No extra space proportional to input size.
+// - So: O(1) constant space
+
+
 
 class Solution {
     public int longestOnes(int[] nums, int k) {
