@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class LC__881Boats_to_Save_People {
